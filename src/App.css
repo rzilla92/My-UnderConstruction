@@ -46,6 +46,10 @@ margin-top: 75x;
   border-radius: 10px;
 }
 
+.projectimage:hover {
+  opacity: 0.75;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
