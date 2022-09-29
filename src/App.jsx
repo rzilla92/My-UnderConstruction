@@ -7,7 +7,9 @@ import { FaGithub, FaFileAlt } from "react-icons/fa"
 function App() {
   return (
     <div className="App">
-      <ParticlesBg className="particles" color="#1DB4E0" type="cobweb" bg={true}/>
+      <div className="particles">
+        <ParticlesBg color="#1DB4E0" type="cobweb" bg={true}/>
+      </div>
       <h1>Under Construction</h1>
       <p className="read-the-docs">
         View my <br />
