@@ -1,6 +1,13 @@
-import { robofriends,trvl,hoobank } from "../assets"
+import { smartbrain, robofriends,trvl,hoobank } from "../assets"
 
 export const repo = [
+    {
+        id:"smartbrain",
+        title: "SmartBrain App",
+        info: "Face recognition app using Clarifai API & PosgresQL for entries count",
+        url: "https://soft-fairy-3b902f.netlify.app/",
+        img: smartbrain
+    },
     {
         id:"robofriends",
         title: "Robofriends",
