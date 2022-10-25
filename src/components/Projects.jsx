@@ -8,7 +8,7 @@ const Projects = () => (
             {repo.map((repos) => (
                 <div key={repos.id}>
                     <h3>{repos.title}</h3>
-                    <a href={repos.url}>
+                    <a target="_blank" href={repos.url}>
                         <img src={repos.img} alt={repos.id} className="projectimage" />
                     </a>
                     <p className="repoinfo">{repos.info}</p>

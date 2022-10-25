@@ -14,8 +14,8 @@ function App() {
       <p className="read-the-docs">
         View my <br />
          <div className='viewmy'>
-          <a href='https://drive.google.com/file/d/1i0Csl3zy_7wAx6X463IYWuqK1sCKasCZ/view?usp=sharing'> <button><FaFileAlt className='icon'/>CV</button> </a>
-          <a href='https://github.com/rzilla92'> <button><FaGithub className='icon' />Github</button> </a>
+          <a target="_blank" href='https://drive.google.com/file/d/1i0Csl3zy_7wAx6X463IYWuqK1sCKasCZ/view?usp=sharing'> <button><FaFileAlt className='icon'/>CV</button> </a>
+          <a target="_blank" href='https://github.com/rzilla92'> <button><FaGithub className='icon' />Github</button> </a>
          </div>
         Or check out some of my projects in the mean time!
       </p>
